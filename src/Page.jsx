@@ -1,13 +1,15 @@
 import React from 'react';
-import { SafeAreaView } from 'react-native';
-import { Tts, VoiceRecognition } from './components';
+import { SafeAreaView, ScrollView } from 'react-native';
+import { Camera, Tts, VoiceRecognition } from './components';
 
 function Page() {
-
   return (
-    <SafeAreaView>
-        <VoiceRecognition />
+    <SafeAreaView style={{flex: 1}}>
+      <Camera />
+      <ScrollView>
         <Tts />
+        <VoiceRecognition />
+      </ScrollView>
     </SafeAreaView>
   );
 }

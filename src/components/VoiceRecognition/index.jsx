@@ -54,27 +54,28 @@ const VoiceRecognition = () => {
 };
 
 const styles = StyleSheet.create({
-    container: { 
-        justifyContent: 'center', 
-        alignItems: 'center' 
-    },
-    touchableOpacity: {
-        padding: 10,
-        backgroundColor: 'blue',
-        borderRadius: 5,
-    },
-    textListen: {
-        fontSize: 18, 
-        marginBottom: 20 
-    },
-    textSpeakAndStop: { 
-        color: 'white', 
-        fontSize: 16 
-    },
-    outputText: { 
-        marginTop: 20, 
-        fontSize: 16 
-    },
-  });
+  container: { 
+    flex: 1,
+    justifyContent: 'center', 
+    alignItems: 'center' 
+  },
+  touchableOpacity: {
+    padding: 10,
+    backgroundColor: 'blue',
+    borderRadius: 5,
+  },
+  textListen: {
+    fontSize: 18, 
+    marginBottom: 20 
+  },
+  textSpeakAndStop: { 
+    color: 'white', 
+    fontSize: 16 
+  },
+  outputText: { 
+    marginTop: 20, 
+    fontSize: 16 
+  },
+});
 
 export default VoiceRecognition;
